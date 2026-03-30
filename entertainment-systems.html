@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    */ was solely meta name="viewport" content="width=device-width, initial-scale=1.0"*/
+    <title>Entertainment System</title>
+
+    <!-- SEO MEAT TAGS -->
+    <meta name="description"
+        content="entertainment systems is a streaming service where you can have same day theater release at home. 
+        Watch the latest releases and old hollywood films">
+    <meta name="keywords" content="home theather, streaming Services, movies, at home movies, filmaking, old hollywood films">
+    <meta name="author" content="Entertainment System - Leah Kellum">
+
+    <!-- OPEN GRAPH - OG -->
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://okraishan.github.io/frame-project/">
+     <meta property="og:title" content="FRAME - Creative Media Magazine">
+     <meta property="og:description" content="FRAME is a creative media magazine dedicated to visual storytelling. Discover photography, design, filmaking, and brand indentity stories from creators worldwide.">
+     <meta property="og:image" content="https://okraishan.github.io/frame-project/assets/images/frane-og.webp">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />\
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- NOTE: Good — 2 Google Fonts (Geist + Unbounded) with preconnect. -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+
+<body>
+    <!-- TIP: Excessive double blank lines throughout HTML — use single blank lines
+         between sections for cleaner code. Format with VS Code: Select All → Right-click
+         → Format Document #-->
+
+    <header>
+
+        
+
+        <h1><i class="fa-solid fa-clapperboard" alt="logo for brand" aria-hidden="true"></i>Entertainment System</h1>
+        <!-- NOTE: Good — h1 with FontAwesome icon for branding. -->
+
+        <nav>
+           <input type="checkbox" id="check">
+           <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+           </label>
+           <div class="nav-mobile">
+            <li><a href="#" aria-labelledby="Services">Services</a></li>
+                <li><a href="#" aria-labelledby="Plans">Plans</a></li>
+                <li><a href="#" aria-labelledby="About Us">About Us</a></li>
+                /*li a href="#">Services /a /li>
+                li a href="#">Plans /a /li>
+                li a href="#">About Us /a /li>*/
+           </div>
+
+
+            <ul class="nav-link">
+
+                <li><a href="#" aria-labelledby="Services">Services</a></li>
+                <li><a href="#"aria-labelledby="Plans">Plans</a></li>
+                <li><a href="#" aria-labelledby="About Us">About Us</a></li>
+
+                 /*li a href="#" aria-labelledby="Services">Services /a /li>
+                li a href="#"aria-labelledby="Plans">Plans /a /li>
+                li a href="#" aria-labelledby="About Us">About Us /a /li>*/
+
+            </ul>
+
+        </nav>
+
+        <!-- ERROR: <button> nested inside <a> is invalid HTML! A button cannot be
+             inside an anchor tag. Use one or the other:
+             FIX: <a class="cta" href="#">Sign Up</a> (styled as a button via CSS) -->
+        <a class="cta" href="#" aria-label="primary button for sign up">Sign Up</a>
+        <!-- NOTE: No hamburger menu for mobile — nav links will overflow on small screens. -->
+
+
+    </header>
+
+
+
+    <main>
+
+
+
+        <!-- TIP: This hero should be a <section> not a <div> for better semantics.
+             FIX: <section class="hero"> -->
+        <section class="hero">
+
+            <video autoplay muted loop class="background-video">
+
+                <source src="assets/videos/hero.mp4" type="video/mp4" alt="background video with no sound">
+                <Figcaption>Video of man eating popcorn</Figcaption>
+                <!-- TIP: Add fallback text: "Your browser does not support video." -->
+
+            </video>
+
+            <!--ChatGPT helped me add the overlay fro the video-->
+            <!-- NOTE: Honest AI disclosure — good practice. -->
+
+
+
+            <div class="overlay"></div>
+
+
+
+            <div class="content">
+
+                <!-- ERROR: Hero headline "Your Own Video at Home" should be an <h2>,
+                     not a <p>. This is a section heading. Using <p> hurts heading
+                     hierarchy and accessibility. FIX: <h2>Your Own Video at Home</h2> -->
+                <h2>Your Home Movie Theater</h2>
+
+                <button aria-label="secondary button to sign up">Learn More</button>
+                /*It was: button Learn more /button>*/
+                
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Used oragnizing content from the card container assignment-->
+
+        <section class="gallery-container">
+
+            <article class="card">
+
+                <img src="assets/images/Solo Women sml.jpg" alt="A Woman Eating Popcorn in a Cinema">
+
+                <div class="card-content">
+
+                    <h3>Theator Mode</h3>
+
+                    <ul>
+
+                        <li>Unlimted Streaming of Moives</li>
+
+                        <li>One-Time Payment for a Whole Year</li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="card-btn">
+
+                    <button secondary button to sign up>See more</button>
+                    /*It was: button See more /button>*/
+
+                </div>
+
+            </article>
+
+
+
+            <article class="card">
+
+                <img src="assets/images/Group movie.jpg"
+                    alt="Group of Friends Wearing 3d Glasses while Watching a Movie">
+
+                <div class="card-content">
+
+                    <h3>Family Gathering</h3>
+
+                    <ul>
+
+                        <li>Have a total of six users on one account</li>
+
+                        <li>No need to take turns watching your favorite movie</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="card-btn">
+
+                    <button aria-label="secondary button to sign up">See more</button>
+                /*It was: button See more /button>*/
+
+                </div>
+
+            </article>
+
+
+
+            <article class="card">
+
+                <img src="assets/images/Student.jpg" alt="A Woman Eating Popcorn while Watching Movie" 
+                   >
+                <!-- ERROR: width="640" height="427" as HTML attributes — use CSS instead.
+                     Also inconsistent: only some images have these attributes. Remove all
+                     HTML width/height and use CSS: .card img { width: 100%; } -->
+
+                <div class="card-content">
+
+                    <h3>Student Binge</h3>
+
+                    <ul>
+
+                        <li>Get a discount for your favorite snack at our partner theaters</li>
+
+                        <li>50% discount off of One-Time Payment for a Whole Year</li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="card-btn">
+
+                    <button aria-label="secondary button to sign up">See more</button>
+                    /*It was: button See more /button>*/
+
+                </div>
+
+            </article>
+
+
+
+            <article class="card">
+
+                <img src="assets/images/Basic.jpg" alt="3D Glasses on Popcorn">
+
+                <div class="card-content">
+
+                    <h3>Plain Popcorn</h3>
+
+                    <ul>
+
+                        <li>One User where your in control</li>
+
+                        <li>Affordable payments every month</li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="card-btn">
+
+                    <button aria-label="A button to read more information about the service">See more</button>
+                    /*It was: button See more /button>*/
+
+                </div>
+
+            </article>
+
+
+
+            <div class="cta">
+
+                <button class="call-to-action" aria-label="A button to read the plan options">View Plans</button>
+
+            </div>
+
+           
+
+        </section>
+
+
+
+        <!--- ChatGPT helped me fix my struture so my text will fit in the pill-->
+
+        <!-- ERROR: Testimonials should be a <section>, not a <div>.
+             FIX: <section class="testimonials"> -->
+        <section class="testimonials">
+            <!-- TIP: "testimonals" is misspelled — should be "testimonials" (throughout HTML and CSS) -->
+
+            <div class="title">
+
+                <!-- ERROR: <h3> here skips <h2> in heading hierarchy. After h1 and h2s
+                     in the cards above, this section heading should be <h2>.
+                     FIX: <h2>Testimonials</h2> -->
+                <h4>Testimonials</h4>
+
+            </div>
+
+
+
+            <!-- Watch a YouTube video to get cards for Testimonals Create a Responsive Testimonial Section Using HTML & CSS | Step-by-Step Guide to Professional Design-->
+
+            <div class="user-container">
+
+                <div class="experiences">
+
+                    <span><i class="fa-solid fa-quote-left"  aria-hidden="true"></i></span>
+
+                    <p> I love Entertainment system. It is nice to not have a montly bill with
+
+                        them.
+
+                    </p>
+
+                    
+                    <!-- TIP: <hr> for decoration — consider using CSS border-bottom instead -->
+
+                    <img src="assets/images/New user 1.jpg" alt="User picture" aria-label="first testimonal picture" >
+                    /*img src="assets/images/port-pic-1"*/
+                    <!-- TIP: "User" is generic alt text. Describe the person:
+                         alt="Portrait of Millie R." -->
+
+                    <p class="name">Millie. R</p>
+
+                </div>
+
+
+
+                <div class="experiences">
+
+                    <span><i class="fa-solid fa-quote-left" aria-hidden="true"></i></span>
+
+                    <p>As a student, I value having time to myself to recharge, and ES has all the movies anyone
+
+                        could want. The Student Binge has been a life saver.
+
+                    </p>
+
+                    
+
+                    <img src="assets/images/man user.jpg" alt="User picture" aria-label="second testimonal picture">
+                    /*img src="assets/images/port-pic-2"*/
+
+                    <p class="name">Aj T.</p>
+
+                </div>
+
+
+
+                <div class="experiences">
+
+                    <span><i class="fa-solid fa-quote-left" aria-hidden="true"></i></span>
+
+                    <p>I was iffy at first about Entertainment System, but so far it's been a great investment.</p>
+
+                   
+
+                    <img src="assets/images/User 3.jpg" alt="User picture" aria-label="third testimonal picture">
+                    /*img src="assets/images/port-pic-3"*/
+
+                    <p class="name">Lily P.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="cta-video">
+
+        <video autoplay muted loop class="background-video">
+
+            <source src="assets/videos/watch now.mp4" type="video/mp4" alt="Man facing a theater" aria-label="background-video">
+
+        </video>
+
+
+
+        <!--ChatGPT helped me add the overlay fro the video-->
+
+
+
+        <div class="overlay"></div>
+
+
+
+        <div class="video-content">
+
+            <!-- ERROR: <h4> skips heading levels. After h1/h2/h3, this should follow
+             logically. Since this is a new section, use <h2>.
+             FIX: <h2>Watch Anywhere</h2> -->
+            <h2>Watch Anywhere</h2>
+
+            <p>Enjoy streaming on all your devices</p>
+
+            <button class="cta-btn" aria-label="Third button to sign up">Get Started</button>
+
+        </div>
+
+    </section>
+
+    </main>
+
+
+
+    <!-- ERROR: This <section> is OUTSIDE <main> — it should be inside <main>
+         before the closing </main> tag. All page content sections belong in <main>. -->
+
+    
+
+
+
+    <footer>
+
+        <section class="footer-container">
+
+            <div class="socials">
+
+                <a href="#"><i class="fa-brands fa-square-facebook" aria-hidden="true" aria-label="Facebook" ></i></a>
+
+                <a href="#"><i class="fa-brands fa-square-instagram" aria-hidden="true" aria-label="Instagram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-square-x-twitter" aria-hidden="true" aria-label="(X) Twitter"></i></a>
+
+                <a href="#"><i class="fa-brands fa-tiktok"  aria-hidden="true" aria-label="TikTok"></i></a>
+
+            </div>
+
+            <section class="footer-btn">
+
+                <ul>
+
+                    <!-- ERROR: href="" (empty) is not the same as href="#". Empty href
+                 reloads the page! FIX: Change all to href="#" -->
+                    <li><a href="#">Contact</a></li>
+
+                    <li><a href="#">Careers</a></li>
+
+                    <li><a href="#">Events</a></li>
+
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="#">Features</a></li>
+
+                </ul>
+
+            </section>
+
+            <div class="footer-bottom">
+
+                <p>Copyright &copy;2026 Designed by Leah Kellum</p>
+
+            </div>
+
+        </section>
+
+    </footer>
+
+
+
+</body>
+
+
+
+</html>
+
+<!--
+====================================================================================
+GRADING — PROJECT 1: MEDIA PRODUCT/SERVICE LANDING PAGE (15 points total)
+====================================================================================
+
+Concept: "Entertainment System" — fictional movie streaming platform
+
+POSITIVES:
++ 2 hand-drawn sketches showing design evolution (concept 1 → final layout)
++ Sketch 2 closely matches the final product — good planning
++ Video hero with dark overlay — professional technique
++ Second video CTA section — creative use of multimedia
++ 2 Google Fonts (Geist + Unbounded) with preconnect
++ FontAwesome icons (clapperboard, quote marks, social media)
++ CSS variables defined (:root) for colors, font, gradient
++ CSS Grid for plan cards with mobile-first responsive progression (1fr→2fr→4fr)
++ CSS Grid for testimonials (3 columns)
++ Flexbox for header, hero content, footer
++ Local images used throughout — well compressed (15-80KB)
++ Testimonials with user photos and quote icons — good design element
++ Honest notes.txt with personal reflection, sources, and AI disclosure
++ All image sources cited with Pexels links
+
+====================================================================================
+Criteria               | Points | Earned | Comments
+-----------------------|--------|--------|------------------------------------------
+Design Process         |  3.0   |  3.0   | ✓ 2 hand-drawn sketches (scanned with
+Documentation          |        |        |   CamScanner) showing design evolution
+                       |        |        | ✓ Sketch 1: different concept with nav
+                       |        |        |   icons, movie tiles, benefits pills,
+                       |        |        |   "Start Your Plan" CTA, footer
+                       |        |        | ✓ Sketch 2: closer to final — ES header,
+                       |        |        |   hero video, plans cards, testimonials,
+                       |        |        |   CTA video section. Good match to site.
+                       |        |        | ✓ notes.txt with honest reflection,
+                       |        |        |   source citations, color palette
+                       |        |        | ~ Sketches are labeled but could be more
+                       |        |        |   detailed with annotations
+-----------------------|--------|--------|------------------------------------------
+HTML Structure         |  2.0   |  1.5   | ✓ DOCTYPE, lang, charset, viewport present
+& Semantics            |        |        | ✓ h1 present with FontAwesome icon
+                       |        |        | ✓ <article> for plan cards — good semantic
+                       |        |        | ✓ Nav with <ul>/<li> structure
+                       |        |        | ✗ <button> inside <a> — invalid HTML!
+                       |        |        | ✗ Hero uses <div> not <section>
+                       |        |        | ✗ Testimonials uses <div> not <section>
+                       |        |        | ✗ CTA video section OUTSIDE <main>
+                       |        |        | ✗ Hero headline is <p> not <h2>
+                       |        |        | ✗ h3 skips h2, h4 skips — heading jumps
+                       |        |        | ✗ Orphaned </div> on line 239
+                       |        |        | ✗ Empty href="" on footer links
+-----------------------|--------|--------|------------------------------------------
+Visual Design          |  3.0   |  3.0   | ✓ 2 Google Fonts: Geist + Unbounded
+& Typography           |        |        | ✓ FontAwesome icons throughout
+                       |        |        | ✓ Video hero with dark overlay — cinematic
+                       |        |        | ✓ Dark brown theme (#1D0C06, #4f2313)
+                       |        |        |   with olive accent (#bbbe64) — unique
+                       |        |        | ✓ Gradient defined for benefits section
+                       |        |        | ✓ 4 plan cards with images — good content
+                       |        |        | ✓ Testimonials with user photos + quotes
+                       |        |        | ✓ Second video CTA — rich multimedia
+                       |        |        | ✗ --dark-color and --light-color are the
+                       |        |        |   SAME value (#bbbe64) — likely a mistake
+                       |        |        | ✗ .content p at 7rem (112px!) is way too
+                       |        |        |   large — will overflow on most screens
+-----------------------|--------|--------|------------------------------------------
+CSS & Layout           |  3.0   |  2.5   | ✓ CSS variables (:root) — colors, font,
+                       |        |        |   gradient
+                       |        |        | ✓ CSS Grid: gallery (1fr→2fr→4fr mobile-
+                       |        |        |   first), testimonials (repeat(3,1fr))
+                       |        |        | ✓ Flexbox: header, hero content, footer
+                       |        |        | ✓ Video overlay technique (z-index layers)
+                       |        |        | ✓ Hover effects: cards, testimonials,
+                       |        |        |   buttons, footer links
+                       |        |        | ✗ NO @keyframes animation — required!
+                       |        |        |   All hover effects are transitions
+                       |        |        | ✗ Gallery container defined TWICE — once
+                       |        |        |   at top (4fr) then overridden at bottom
+                       |        |        |   (1fr mobile-first). Remove the first.
+                       |        |        | ✗ font-weight: 40px on .name — invalid!
+                       |        |        |   font-weight uses numbers (100-900)
+                       |        |        | ✗ .content p: 7rem, .video-content h4:
+                       |        |        |   7rem, p: 5rem — extremely large
+                       |        |        | ✗ h1 font-size: 1rem — too small for h1!
+                       |        |        | ✗ Dead CSS: .benefits, .pill classes
+                       |        |        |   defined but never used in HTML
+                       |        |        | ✗ Missing semicolon line 942
+-----------------------|--------|--------|------------------------------------------
+Responsive Design      |  2.0   |  1.0   | ✓ Mobile-first grid for gallery section
+                       |        |        |   (1fr → 2fr → 4fr) — good progression
+                       |        |        | ✓ 2 breakpoints: 768px and 1024px
+                       |        |        | ✗ ONLY gallery is responsive — hero,
+                       |        |        |   testimonials, CTA video, and footer
+                       |        |        |   have NO responsive adjustments
+                       |        |        | ✗ Missing required 480px breakpoint
+                       |        |        | ✗ No hamburger menu for mobile
+                       |        |        | ✗ 7rem text will overflow on mobile
+                       |        |        | ✗ Testimonial grid stays 3-col on mobile
+-----------------------|--------|--------|------------------------------------------
+Accessibility          |  1.0   |  1.0   | ✓ Alt text on images (some generic "User")
+                       |        |        | ✓ Videos have muted attribute
+                       |        |        | ✗ <button> inside <a> — invalid/
+                       |        |        |   inaccessible pattern
+                       |        |        | ✗ No :focus styles anywhere
+                       |        |        | ✗ Testimonial alt text is just "User" x3
+                       |        |        | ✗ h1 at 1rem (16px) — too small for h1
+                       |        |        | ✗ .name at 0.9rem (14.4px) below 16px min
+-----------------------|--------|--------|------------------------------------------
+Professionalism        |  1.0   |  0.5   | ✓ Honest notes.txt — personal reflection,
+& Polish               |        |        |   all image/video sources cited, challenges
+                       |        |        |   documented, color palette listed
+                       |        |        | ✓ Images well-compressed (15-80KB)
+                       |        |        | ✗ hero.mp4 is 62MB — very large!
+                       |        |        |   Compress or use a shorter clip
+                       |        |        | ✗ File named entertainment-systems.html
+                       |        |        |   instead of index.html
+                       |        |        | ✗ Excessive double blank lines throughout
+                       |        |        |   HTML and CSS — format your code
+                       |        |        | ✗ Image filenames have spaces
+-----------------------|--------|--------|------------------------------------------
+TOTAL                  | 15.0   |  12.5  |
+====================================================================================
+
+SUMMARY OF ISSUES TO FIX:
+1. Add at least ONE CSS @keyframes animation (required!)
+2. Fix <button> inside <a> — use one or the other, not both
+3. Change hero headline from <p> to <h2>
+4. Change testimonials <div> to <section>, hero <div> to <section>
+5. Move CTA video section inside <main>
+6. Fix heading hierarchy: h3→h2 for testimonials, h4→h2 for CTA
+7. Remove duplicate .gallery-container definition (keep only the mobile-first one)
+8. Fix extreme font sizes: .content p (7rem!), .video-content h4 (7rem!),
+   .video-content p (5rem!). Use 2-3rem max.
+9. Increase h1 font-size from 1rem to at least 2rem
+10. Fix --dark-color and --light-color being the same value
+11. Fix font-weight: 40px → font-weight: 400
+12. Add missing 480px breakpoint
+13. Make testimonials, hero, CTA, footer responsive
+14. Add hamburger menu for mobile navigation
+15. Fix spelling: "Theator"→"Theater", "Unlimted"→"Unlimited",
+    "Moives"→"Movies", "testimonals"→"testimonials"
+16. Add :focus styles for keyboard navigation
+17. Change empty href="" to href="#" in footer links
+18. Remove orphaned </div> tag
+19. Compress hero.mp4 (62MB) — way too large
+20. Remove .psd file from submission
+21. Rename file to index.html
+22. Format code — remove excessive double blank lines
+
+====================================================================================
+-->

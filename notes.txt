@@ -1,0 +1,42 @@
+Leah Kellum R#11804195
+This is a streaming platform. You can buy subscriptions, and stream movies on your phone.
+
+Features:
+I made the review boxes hover, from a tutorial. I made a basic nav with the buttons in the center from a tutorial. I made
+then footer look simliar to the nav, and added social media icons, from a tutorial. I use Flexbox, to postion text or images.
+I finally understood how to use them. Also, I used grid, I beileve for just the subscription plans. I had to refrence my responsive
+assignment a lot. So, I used some css elements from that. 
+
+Notes:
+This was the hardest assignment ever. I did not feel prepared for this assignment, if I'm being honset. I know we had notes and assignments to 
+look at(which I did use) but didn't help as much as I like.
+A lot of the code, I felt like I had no choice, but to ask Chat whats wrong with my code, or why my code isn't working, and it still
+dosen't look as good. Which I feel bad about, but I tried.
+My website is not responive at all, I totally forgot to make it reponsive when I started coding. By the time I realized it,
+I knew it would take another 8 hours to decode. 
+Every section, except for the nav, and the grid was a challenge for me. However I finally understood Flexbox, but I needed
+to understand more than that to complete this project.
+ I looked at a lot of Youtube videos for this assignment, and I already know 
+it's not the best, but this is me giving it my absolute all. 
+
+Solo Women img - Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-woman-eating-popcorn-in-a-cinema-7991326/
+Group Movie img - Photo by cottonbro studio: https://www.pexels.com/photo/group-of-friends-wearing-3d-glasses-while-watching-a-movie-8263349/
+- Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-woman-eating-popcorn-while-watching-movie-7991377/
+- Photo by John Booth: https://www.pexels.com/photo/popcorn-in-buckets-at-the-cinema-8610548/
+- Photo by Phúc Phạm: https://www.pexels.com/photo/a-variety-of-vhs-tapes-2977317/
+video - Video by Pavel Danilyuk: https://www.pexels.com/video/a-person-watching-in-the-cinema-7233574/
+student binge img -mPhoto by cottonbro studio: https://www.pexels.com/photo/woman-holding-a-bucket-of-popcorn-8263347/
+hero section video - Video by cottonbro studio: https://www.pexels.com/video/a-man-eating-popcorn-8273664/
+logo - <a href="https://www.flaticon.com/free-icons/film-roll" title="film roll icons">Film roll icons created by smashingstocks - Flaticon</a>
+User pic 1 - Photo by cottonbro studio: https://www.pexels.com/photo/low-light-photo-of-man-in-white-crew-neck-shirt-8090264/
+User pic 2 - Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-coat-762020/
+User pic 3 - Photo by Mateusz Dach: https://www.pexels.com/photo/grayscale-photo-of-woman-with-short-hair-3556274/
+
+New pictures
+User 1 - Photo by David Rado: https://www.pexels.com/photo/portrait-of-young-woman-posing-in-studio-12421121/
+User 2 - Photo by Anil  Sharma : https://www.pexels.com/photo/captivating-male-portrait-in-studio-lighting-32721688/
+user 3 - Photo by Darkshade Photos: https://www.pexels.com/photo/capturing-the-essence-of-beauty-19245166/
+
+main color: #4f2313
+main dark color: #1D0C06
+main light: #bbbe64
