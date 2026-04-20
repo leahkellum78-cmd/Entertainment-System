@@ -5,7 +5,7 @@
 
     --med-color: #eaf0ce;
 
-    --light-color: #bbbe64;
+    --light-color: #2FA4D7;
     
 
     --dark-text: #1D0C06;
@@ -53,7 +53,7 @@ body {
 /*dropdown menu stlying set*/
 nav {
     padding: 1.5rem 2rem;
-    background-color: #bbbe64;
+    background-color: #2FA4D7;
     color: black;
 }
 
@@ -76,7 +76,7 @@ nav {
 }
 
 .nav-mobile a {
-    color: #bbbe64;
+    color: #6ccaf3;
     padding: 1rem 1.5rem;
     display: block;
 }
@@ -295,7 +295,7 @@ button:hover {
 
     height: 100%;
 
-    color: #edf0f1;
+    color: #ffffff;
 
     display: flex;
 
@@ -365,7 +365,7 @@ button:hover {
 
     border-radius: 12px;
 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(225, 225, 225, 0.1);
 
     transition: transform 0.3s ease;
 
@@ -410,7 +410,7 @@ button:hover {
 
     width: 100%;
 
-    color: #edf0f1;
+    color: #ffffff;
 
     font-family: var(--body-font);
 
@@ -418,7 +418,7 @@ button:hover {
 
 @keyframes myAnimation {
   from {background-color: var(--light-color);}
-  to {background-color: var(--dark-text);}
+  to {background-color: #E76F2E;}
 }
 .card-content:hover {
  transform: translateY(-3px);
@@ -477,28 +477,6 @@ button:hover {
 
 }
 
-
-
-/*==============================
-
-CTA
-
-==============================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==================================
 
 Testimonals
@@ -513,7 +491,7 @@ Testimonals
 
     font-family: var(--body-font);
 
-    color: #edf0f1;
+    color: #ffffff;
 
     margin-bottom: 2rem;
 
@@ -592,7 +570,7 @@ Testimonals
 
     border-radius: 5px;
 
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 30px rgba(225, 225, 225, 0.1);
 
     cursor: pointer;
 
@@ -718,7 +696,7 @@ Testimonals
 
     height: 100%;
 
-    color: #edf0f1;
+    color: #ffffff;
 
     display: flex;
 
@@ -729,6 +707,8 @@ Testimonals
     align-items: center;
 
     text-align: center;
+
+    object-fit: cover;
 
 }
 
